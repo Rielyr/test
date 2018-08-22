@@ -1,5 +1,10 @@
+import random
 
+randomnumber = random.randint(0,10)
 mensaje = list('Hola mundo')
 
-for i in mensaje:
-    print(i)
+def aleatorio():
+    for i in range(0, randomnumber):
+        print(i)
+
+aleatorio()
